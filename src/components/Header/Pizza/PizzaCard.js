@@ -2,10 +2,10 @@ import React from "react";
 import {Button, Card, Icon, Image} from "semantic-ui-react";
 
 const PizzaCard = (pizza) =>{
-    const {img, name, price, description, addToCard, addedCount} = pizza;
+    const {img, name, price, description} = pizza;
     return(
         <Card>
-            <Image src={img} />
+            {/*<Image src={img} />*/}
             <Card.Content>
                 <Card.Meta>
                     <span className='date'>{name}</span>
@@ -20,8 +20,9 @@ const PizzaCard = (pizza) =>{
                     {price}
                 </a>
             </Card.Content>
-            <Button /*onClick={addToCard.bind(this, pizza)}*/>
-                Добавить в корзину /*{addedCount > 0 && `(${addedCount})`}*/</Button>
+            <Button>
+                Добавить в корзину
+            </Button>
         </Card>
     )
 };

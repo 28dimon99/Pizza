@@ -7,7 +7,7 @@ const ADD_TO_CARD = "ADD_TO_CARD";
 const REMOVE_FROM_CARD = "REMOVE_FROM_CARD";
 
 let initialState = {
-    pizza: null,
+    pizza: [],
     isReady: false,
 };
 

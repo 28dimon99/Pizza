@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from "./components/Header/Header";
+
 import s from "./App.module.css"
 import Content from "./components/Content/Content";
 import {Footer} from "./components/Footer/Footer";
 import {Redirect, Route, Switch,} from "react-router-dom";
 import PizzaContainer from "./components/Header/Pizza/PizzaContainer";
+import Header from "./components/Header/Header";
 
 
 
@@ -26,7 +27,7 @@ import PizzaContainer from "./components/Header/Pizza/PizzaContainer";
                  <Footer/>
              </div>
          );
-     }
+     };
 
 
 
