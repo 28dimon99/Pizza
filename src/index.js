@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'semantic-ui-css/semantic.min.css'
+import {BrowserRouter} from "react-router-dom";
+import createStore from "./redux/store"
+import {Provider} from "react-redux";
 
+
+
+const store = createStore()
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <BrowserRouter>
+        <Provider store={store}>
+            <App />
+        </Provider>
+
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import s from "./App.module.css"
+import Content from "./components/Content/Content";
+import {Footer} from "./components/Footer/Footer";
+import {Redirect, Route, Switch,} from "react-router-dom";
+import PizzaContainer from "./components/Header/Pizza/PizzaContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+
+
+
+
+ const App = () => {
+
+         return (
+             <div className={s.App}>
+                 <Header/>
+                 <Switch>
+                     <Route exact path="/main" component={Content}/>
+                     <Route exact path="/pizza"
+                            render={() =>
+                                <PizzaContainer />}/>
+                     <Redirect from="/" to="/main"/>
+                 </Switch>
+                 <Footer/>
+             </div>
+         );
+     }
+
+
 
 export default App;

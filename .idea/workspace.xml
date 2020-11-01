@@ -1,9 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf90498-1689-46bc-b9f4-9c9b4404ab22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/goods.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/Api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Carusel/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/bannerPizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/bannerPizza2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/collectImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/pizzaImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/priceImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/setImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Footer/facebookImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Footer/youtubeImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Logo/cropped-gogopizza-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Carusel/Carusel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Carusel/Carusel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Content.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/pizzaReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/rootReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jFB3x8aEB4vKzBZuXzrJZNzw8a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\WebstormProjects\MyNewProject\pizza\public" />
+      <recent name="C:\Users\Dima\WebstormProjects\MyNewProject\pizza\src\Images" />
+      <recent name="C:\Users\Dima\WebstormProjects\MyNewProject\pizza\src\components" />
+      <recent name="C:\Users\Dima\WebstormProjects\MyNewProject\pizza\src\Images\Content" />
+      <recent name="C:\Users\Dima\WebstormProjects\MyNewProject\pizza\src\Images\Carusel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Dima\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf90498-1689-46bc-b9f4-9c9b4404ab22" name="Default Changelist" comment="" />
+      <created>1603389764057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603389764057</updated>
+      <workItem from="1603389767764" duration="5598000" />
+      <workItem from="1603526194373" duration="5574000" />
+      <workItem from="1603632648318" duration="15951000" />
+      <workItem from="1603821866707" duration="1844000" />
+      <workItem from="1603997877580" duration="4085000" />
+      <workItem from="1604146413345" duration="22279000" />
+      <workItem from="1604221402693" duration="9133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PizzaPage" />
+    <MESSAGE value="pizza commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="pizza commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604232191219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604232191219" />
+    <state x="553" y="257" key="Github.ShareDialog" timestamp="1604232036264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="257" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1604232036264" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1604172564545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604172564545" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1604172564544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604172564544" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1604172564543">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604172564543" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1604172564545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604172564545" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604167763122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604167763122" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604151522131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604151522131" />
+    <state x="513" y="155" key="svn.repositoryBrowser" timestamp="1604232205146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="155" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1604232205146" />
+    <state x="515" y="139" key="svn4idea.import.options" timestamp="1604232203708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="515" y="139" key="svn4idea.import.options/0.0.1366.728@0.0.1366.728" timestamp="1604232203708" />
   </component>
 </project>

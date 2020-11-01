@@ -1,0 +1,110 @@
+.content {
+     display: grid;
+     width: 1294px;
+
+ }
+
+.blockImg {
+    display: grid;
+    width: 1294px;
+    grid-template-areas:
+            'one one two three'
+            'one one four four';
+}
+
+.one {
+    display: grid;
+    grid-area: one;
+}
+
+.two{
+    display: grid;
+    grid-area: two;
+}
+.three{
+    display: grid;
+    grid-area: three;
+    margin-left: -26px;
+}
+.four{
+    display: grid;
+    grid-area: four;
+}
+.one:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.one:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.two:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.two:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.three:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.three:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.four:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.four:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+.contentLinks ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: large;
+
+
+}
+.contentLinks li{
+    list-style: none;
+    text-decoration: none;
+    border-bottom: solid gray 1px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.icons img {
+    width: 350px;
+    height: 100px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1294px;
+
+
+}
+
+

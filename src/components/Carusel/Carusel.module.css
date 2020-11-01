@@ -1,0 +1,27 @@
+.carusel{
+    display: grid;
+    width: 1294px;
+    overflow: hidden;
+}
+
+
+.carusel button img{
+    width: 30px;
+    height: 30px;
+}
+.prev{
+    display: grid;
+    width: 30px;
+    position: absolute;
+    margin-top: 210px;
+
+}
+.next{
+    display: grid;
+    width: 30px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 1246px;
+;
+
+}
