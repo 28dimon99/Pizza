@@ -5,31 +5,30 @@ import * as axios from "axios";
 
 
 
+
 export class Pizza extends React.Component{
     componentDidMount() {
-        const {getPizzaAC} = this.props;
         axios.get(`http://localhost:3000/pizza`).then(response => {
-            getPizzaAC(response.data)
+            this.props.getPizza(response.data)
         });
     }
 
     render() {
-        const {pizza, isReady} = this.props;
+        const {pizzas, isReady} = this.props;
         console.log(this.props);
+        debugger
         return(
             <div className={s.pizza}>
                 {!isReady
                     ? 'Загрузка...'
                     :
-                    pizza && pizza.map((p, i) => (
+                    pizzas && pizzas.map((p, i) => (
                         <PizzaCard key={i} {...p}/>
                     ))}
             </div>
         )
     }
 }
-
-
 
 
 export default Pizza

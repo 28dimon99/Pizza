@@ -7,13 +7,13 @@ import {connect} from "react-redux";
 
 const mapStateToProps = (state)=>({
 
-    pizza: state.pizzaReducer.pizza,
+    pizza: state.pizzaReducer.pizzas,
     isReady: state.pizzaReducer.isReady,
 
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getPizzaAC: (pizza) => dispatch(getPizzaAC(pizza)),
+    getPizza: pizzas => dispatch(getPizzaAC(pizzas)),
 });
 
 
