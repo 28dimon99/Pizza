@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf90498-1689-46bc-b9f4-9c9b4404ab22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaContainerTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaTest.js" afterDir="false" />
+    <list default="true" id="9cf90498-1689-46bc-b9f4-9c9b4404ab22" name="Default Changelist" comment="update img">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Content/icons/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Header/icons/8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pizza.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/pizza.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Pizza/Pizza.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Pizza/PizzaContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/pizzaReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/pizzaReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +104,7 @@
       <workItem from="1604738545193" duration="6904000" />
       <workItem from="1604831324438" duration="10484000" />
       <workItem from="1604856910514" duration="3427000" />
-      <workItem from="1604864104510" duration="576000" />
+      <workItem from="1604864104510" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="pizza commit">
       <created>1604232262727</created>
@@ -122,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604608416318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update commit">
+      <created>1604864770528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604864770529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,13 +145,15 @@
     <MESSAGE value="pizza commit" />
     <MESSAGE value="header" />
     <MESSAGE value="pizzaReducer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="pizzaReducer commit" />
+    <MESSAGE value="update commit" />
+    <MESSAGE value="update img" />
+    <option name="LAST_COMMIT_MESSAGE" value="update img" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1604608414158">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1604865447160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604608414158" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604865447160" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604743115444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -164,10 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604172564545" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1604864673044">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1604864785031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604864673044" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604864785031" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1604167763122">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
