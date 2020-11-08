@@ -4,8 +4,8 @@ import s from "./App.module.css"
 import Content from "./components/Content/Content";
 import {Footer} from "./components/Footer/Footer";
 import {Redirect, Route, Switch,} from "react-router-dom";
-import PizzaContainer from "./components/Header/Pizza/PizzaContainer";
 import Header from "./components/Header/Header";
+import PizzaContainerTest from "./components/Header/Pizza/PizzaContainerTest";
 
 
 
@@ -22,7 +22,7 @@ import Header from "./components/Header/Header";
                      <Route exact path="/main" component={Content}/>
                      <Route exact path="/pizza"
                             render={() =>
-                                <PizzaContainer />}/>
+                                <PizzaContainerTest />}/>
                      <Redirect from="/" to="/main"/>
                  </Switch>
                  <Footer/>

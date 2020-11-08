@@ -8,22 +8,22 @@ import * as axios from "axios";
 
 export class Pizza extends React.Component{
     componentDidMount() {
-        axios.get(`http://localhost:3000/pizza`).then(response => {
-            this.props.getPizza(response.data)
+        axios.get(`http://localhost:3000/pizza.json/pizza`).then(response => {
+            this.props.setPizzaAC(response.data)
         });
     }
 
     render() {
         const {pizzas, isReady} = this.props;
         console.log(this.props);
-        debugger
+debugger
         return(
             <div className={s.pizza}>
                 {!isReady
                     ? 'Загрузка...'
                     :
-                    pizzas && pizzas.map((p, i) => (
-                        <PizzaCard key={i} {...p}/>
+                    pizzas && pizzas.map((pizza, i) => (
+                        <PizzaCard key={i} {...pizza}/>
                     ))}
             </div>
         )
