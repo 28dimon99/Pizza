@@ -31,7 +31,7 @@ const Header = () => {
             </Menu>
             <div className={s.lowHeader}>
                 <Menu inverted>
-                    <NavLink to='pizza'><Image src={pizzaImg}/><Menu.Item active='pizza'>Пицца</Menu.Item></NavLink>
+                    <NavLink to='pizzas'><Image src={pizzaImg}/><Menu.Item active='pizzas'>Пицца</Menu.Item></NavLink>
                     <NavLink to='sets'><Image src={setsImg}/><Menu.Item active='sets'>Сеты</Menu.Item></NavLink>
                     <NavLink to='constuctor'><Image src={constructorImg}/><Menu.Item active='constuctor'>Конструктор</Menu.Item></NavLink>
                     <NavLink to='pancakes'><Image src={pancakesImg}/><Menu.Item active='pancakes'>Блины</Menu.Item></NavLink>

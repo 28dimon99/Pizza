@@ -1,34 +1,22 @@
 import React from "react";
-import s from "./Pizza.module.css"
+import s from "../lowHeaderCard.module.css"
 import PizzaCard from "./PizzaCard";
-import * as axios from "axios";
 
 
+const Pizza = (props) => {
 
+    return (
 
-export class Pizza extends React.Component{
-    componentDidMount() {
-        axios.get(`http://localhost:3000/pizza.json/pizza`).then(response => {
-            this.props.setPizzaAC(response.data)
-        });
-    }
+        <div className={s.cardGoods}>
+            {!props.isReady
+                ? 'Загрузка...'
+                :
+                props.pizzas && props.pizzas.map((pizzas, i) => (
+                    <PizzaCard key={i} pizzas={pizzas}/>
+                    ))
+            }
 
-    render() {
-        const {pizzas, isReady} = this.props;
-        console.log(this.props);
-debugger
-        return(
-            <div className={s.pizza}>
-                {!isReady
-                    ? 'Загрузка...'
-                    :
-                    pizzas && pizzas.map((pizza, i) => (
-                        <PizzaCard key={i} {...pizza}/>
-                    ))}
-            </div>
-        )
-    }
-}
-
-
+        </div>
+    );
+};
 export default Pizza
