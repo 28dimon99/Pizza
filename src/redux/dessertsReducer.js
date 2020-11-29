@@ -1,19 +1,21 @@
 
-const SET_DATA_PANCAKES = 'SET_DATA_PANCAKES';
+
+
+const SET_DATA_DESSERTS = 'SET_DATA_DESSERTS';
 const SET_IS_READY = "SET_IS_READY";
 
 
 let initialState = {
-    pancakes: [],
+    desserts: [],
     isReady: false,
 };
-const PancakesCard = (state = initialState, action)=>{
+const DessertsCard = (state = initialState, action)=>{
     switch (action.type){
 
-        case SET_DATA_PANCAKES:
+        case SET_DATA_DESSERTS:
             return{
                 ...state,
-                pancakes: action.payload,
+                desserts: action.payload,
                 isReady: true
             };
         case SET_IS_READY:
@@ -26,9 +28,9 @@ const PancakesCard = (state = initialState, action)=>{
     }
 };
 //actions
-export const setPancakesAC = (pancakes) => ({
-    type: SET_DATA_PANCAKES,
-    payload: pancakes
+export const setDessertsAC = (desserts) => ({
+    type: SET_DATA_DESSERTS,
+    payload: desserts
 });
 
 
@@ -39,4 +41,4 @@ export const setPancakesAC = (pancakes) => ({
     dispatch(getPizza(response.data));
 };*/
 
-export default PancakesCard;
+export default DessertsCard;

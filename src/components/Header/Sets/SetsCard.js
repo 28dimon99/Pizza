@@ -2,6 +2,7 @@ import React from "react";
 import {Button, Card, Icon, Image} from "semantic-ui-react";
 import s from "../lowHeaderCard.module.css"
 
+
 const SetsCard = (props) =>{
     const {img, name, price, description} = props.sets;
     return(

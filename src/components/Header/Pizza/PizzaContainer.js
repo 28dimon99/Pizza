@@ -3,6 +3,8 @@ import Pizza from "./Pizza";
 import * as axios from "axios";
 import {setPizzaAC} from "../../../redux/pizzaReducer";
 import {connect} from "react-redux";
+import {addToBasketAC, removeFromBasketAC} from "../../../redux/basketReducer";
+
 
 
 const PizzaContainer = (props) => {
@@ -20,12 +22,17 @@ const PizzaContainer = (props) => {
 
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state,id) => ({
     pizzas: state.pizzaReducer.pizzas,
-    isReady: state.pizzaReducer.isReady
+    isReady: state.pizzaReducer.isReady,
+    addedCount: state.basketReducer.items.reduce((count, pizzas) => count + (pizzas.id === id ? 1: 0), 0)
 });
 const mapDispatchToProps = (dispatch) => ({
-    setPizzaAC: pizzas => dispatch(setPizzaAC(pizzas))
+    setPizzaAC: pizzas => dispatch(setPizzaAC(pizzas)),
+    addToBasketAC: obj => dispatch(addToBasketAC(obj)),
+    removeFromBasketAC: id => dispatch(removeFromBasketAC(id)),
+
+
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PizzaContainer)

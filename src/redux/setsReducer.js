@@ -20,7 +20,7 @@ const SetsCard = (state = initialState , action) => {
         case SET_IS_READY :
             return{
                 ...state,
-                isReady: action.payload
+                isReady: action.isReady
             };
         default:
             return state

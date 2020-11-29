@@ -2,9 +2,8 @@ import React from "react";
 import {Button, Card, Icon, Image} from "semantic-ui-react";
 import s from "../lowHeaderCard.module.css"
 
-
-const PancakesCard = (props) =>{
-    const {img, name, price, description} = props.pancakes;
+const DrinksCard = (props) =>{
+    const {img, name, price, description, /*addedCount*/} = props.drinks;
     return(
 
         <Card className={s.card}>
@@ -23,10 +22,9 @@ const PancakesCard = (props) =>{
                     {price}
                 </a>
             </Card.Content>
-            <Button>
-                Добавить в корзину
-            </Button>
+            <Button>Добавить в корзину</Button>
+            {/*<Button onClick={addToBasketAC.bind(this, p)}>Добавить в корзину{addedCount > 0 && `(${addedCount})`}</Button>*/}
         </Card>
     )
 };
-export default PancakesCard
+export default DrinksCard

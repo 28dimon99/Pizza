@@ -1,6 +1,7 @@
 import React from "react";
 import s from "../lowHeaderCard.module.css"
 import PizzaCard from "./PizzaCard";
+import Prelouder from "../../common/Prelouder/Prelouder";
 
 
 const Pizza = (props) => {
@@ -9,13 +10,12 @@ const Pizza = (props) => {
 
         <div className={s.cardGoods}>
             {!props.isReady
-                ? 'Загрузка...'
+                ? <Prelouder/>
                 :
                 props.pizzas && props.pizzas.map((pizzas, i) => (
-                    <PizzaCard key={i} pizzas={pizzas}/>
+                    <PizzaCard key={i} {...props} pizzas={pizzas}/>
                     ))
             }
-
         </div>
     );
 };

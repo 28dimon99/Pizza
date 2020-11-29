@@ -3,7 +3,7 @@ import {Button, Card, Icon, Image} from "semantic-ui-react";
 import s from "../lowHeaderCard.module.css"
 
 const PizzaCard = (props) =>{
-    const {img, name, price, description} = props.pizzas;
+    const {img, name, price, description, addToBasketAC, addedCount} = props.pizzas;
     return(
 
             <Card className={s.card}>
@@ -22,9 +22,7 @@ const PizzaCard = (props) =>{
                         {price}
                     </a>
                 </Card.Content>
-                <Button>
-                    Добавить в корзину
-                </Button>
+                <Button onClick={props.addToBasketAC.bind(this, props.pizzas)}>Добавить в корзину{addedCount > 0 && `(${addedCount})`}</Button>
             </Card>
     )
 };

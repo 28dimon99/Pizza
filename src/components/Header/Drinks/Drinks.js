@@ -1,11 +1,10 @@
 import React from "react";
 import s from "../lowHeaderCard.module.css"
-import PancakesCard from "./PancakesCard";
 import Prelouder from "../../common/Prelouder/Prelouder";
+import DrinksCard from "./DrinksCard";
 
 
-
-const Pancakes = (props) => {
+const Drinks = (props) => {
 
     return (
 
@@ -13,12 +12,11 @@ const Pancakes = (props) => {
             {!props.isReady
                 ? <Prelouder/>
                 :
-                props.pancakes && props.pancakes.map((pancakes, i) => (
-                    <PancakesCard key={i} pancakes={pancakes}/>
+                props.drinks && props.drinks.map((drinks, i) => (
+                    <DrinksCard key={i} drinks={drinks}/>
                 ))
             }
-
         </div>
     );
 };
-export default Pancakes
+export default Drinks

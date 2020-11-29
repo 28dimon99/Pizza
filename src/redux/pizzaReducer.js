@@ -26,7 +26,7 @@ const PizzaCard = (state = initialState, action)=>{
         default :
             return state;
     }
-}
+};
 //actions
 export const setPizzaAC = (pizzas) => ({
     type: SET_DATA_PIZZA,

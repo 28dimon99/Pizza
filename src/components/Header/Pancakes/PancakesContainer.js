@@ -22,7 +22,8 @@ const PancakesContainer = (props) => {
 
 const mapStateToProps = (state) => ({
     pancakes: state.pancakesReducer.pancakes,
-    isReady: state.pancakesReducer.isReady
+    isReady: state.pancakesReducer.isReady,
+
 });
 const mapDispatchToProps = (dispatch) => ({
     setPancakesAC: pancakes => dispatch(setPancakesAC(pancakes))
