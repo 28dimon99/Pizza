@@ -1,5 +1,5 @@
 import React from "react";
-import {Image, Menu, Popup} from "semantic-ui-react";
+import {Button, Image, List, Menu, Popup} from "semantic-ui-react";
 import logoImg from "../../Images/Logo/cropped-gogopizza-logo.png"
 import s from "./Header.module.css"
 import {NavLink} from "react-router-dom";
@@ -11,29 +11,45 @@ import snacksImg from "../../Images/Header/icons/5.png"
 import dessertsImg from "../../Images/Header/icons/6.png"
 import saucesImg from "../../Images/Header/icons/7.png"
 import drinksImg from "../../Images/Header/icons/8.png"
-import Basket from "./Basket/Basket";
 
 
 
-const Header = ({totalPrice, count, items}) => {
 
+const Basket = ({name, img, id, removeFromBasketAC}) =>{
+    return(
+        <List  selection divided verticalAlign='middle'>
+            <List.Item>
+                <List.Content floated='right'>
+                    <Button onClick={removeFromBasketAC.bind(this, id)} color="red">Удалить</Button>
+                </List.Content>
+                <Image avatar src={img} />
+                <List.Content>{name}</List.Content>
+
+            </List.Item>
+        </List>
+    )
+};
+
+
+const Header = (props) => {
+       const {totalPrice, count, items, removeFromBasketAC} = props
     return(
 
         <div className={s.header}>
-            <Menu inverted>
                 <Image src={logoImg} size='small'/>
+                <Menu inverted>
                 <Menu.Menu position="right">
                     <NavLink to='/main'><Menu.Item active='main'>Главная</Menu.Item></NavLink>
                     <NavLink to='/shares'><Menu.Item active='shares'>Акции</Menu.Item></NavLink>
                     <NavLink to='/contacts'><Menu.Item active='contacts'>Контакты</Menu.Item></NavLink>
                     <NavLink to='/vacancies'><Menu.Item active='vacancies'>Вакансии</Menu.Item></NavLink>
-                    <Menu.Item > Итого : &nbsp; <b>{totalPrice}</b> &nbsp;rub.</Menu.Item>
+                    <Menu.Item > Итого : &nbsp; <b>{totalPrice}</b> &nbsp; руб.</Menu.Item>
                     <Popup trigger={
                         <Menu.Item active='basket'>
                             Корзина : <b>{count}</b>
                         </Menu.Item>
                     }
-                           content={items.map(p=> <Basket {...p}/>)}
+                           content={items.map(pizza=> <Basket {...props} {...pizza}/>)}
                            on="click"
                            hideOnScroll
                     />

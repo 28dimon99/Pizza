@@ -11,6 +11,7 @@ import {removeFromBasketAC} from "../../redux/basketReducer";
 
 
 
+
 const HeaderContainer = (props) =>{
     return(
         <div>
@@ -37,7 +38,9 @@ const mapDispatchToProps=(dispatch)=>({
     setSnacksAC: snacks => dispatch(setSnacksAC(snacks)),
     setDessertsAC: desserts => dispatch(setDessertsAC(desserts)),
     setDrinksAC: drinks => dispatch(setDrinksAC(drinks)),
-    removeFromBasketAC: id => dispatch(removeFromBasketAC(id)),
+    removeFromBasketAC: id => dispatch(removeFromBasketAC(id))
+
+
 
 
 

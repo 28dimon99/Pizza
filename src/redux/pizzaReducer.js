@@ -1,8 +1,9 @@
 
 
 
-const SET_DATA_PIZZA = 'SET_DATA_PIZZA';
+const SET_DATA_PIZZA = "SET_DATA_PIZZA";
 const SET_IS_READY = "SET_IS_READY";
+
 
 
 let initialState = {
@@ -32,6 +33,7 @@ export const setPizzaAC = (pizzas) => ({
     type: SET_DATA_PIZZA,
     payload: pizzas
 });
+
 
 
 //thunk
