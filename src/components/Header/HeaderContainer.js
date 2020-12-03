@@ -12,7 +12,9 @@ import {removeFromBasketAC} from "../../redux/basketReducer";
 
 
 
+
 const HeaderContainer = (props) =>{
+
     return(
         <div>
             <Header {...props}/>
@@ -28,19 +30,20 @@ const mapStateToProps=(state)=>({
     snacks: state.snacksReducer.snacks,
     desserts: state.dessertsReducer.desserts,
     drinks: state.drinksReducer.drinks,
-    totalPrice: state.basketReducer.items.reduce((total, p) => total + p.price, 0 ),
+    totalPrice: state.basketReducer.items.reduce((total, p) => total + p.price, 0),
     count: state.basketReducer.items.length,
     items: uniqBy(state.basketReducer.items, o => o.id)
 });
+
+
+
 const mapDispatchToProps=(dispatch)=>({
-    setPizzaAC: pizzas => dispatch(setPizzaAC(pizzas)),
-    setPancakesAC: pancakes => dispatch(setPancakesAC(pancakes)),
-    setSnacksAC: snacks => dispatch(setSnacksAC(snacks)),
-    setDessertsAC: desserts => dispatch(setDessertsAC(desserts)),
-    setDrinksAC: drinks => dispatch(setDrinksAC(drinks)),
-    removeFromBasketAC: id => dispatch(removeFromBasketAC(id))
-
-
+    setPizza: pizzas => dispatch(setPizzaAC(pizzas)),
+    setPancakes: pancakes => dispatch(setPancakesAC(pancakes)),
+    setSnacks: snacks => dispatch(setSnacksAC(snacks)),
+    setDesserts: desserts => dispatch(setDessertsAC(desserts)),
+    setDrinks: drinks => dispatch(setDrinksAC(drinks)),
+    removeFromBasket: id => dispatch(removeFromBasketAC(id)),
 
 
 

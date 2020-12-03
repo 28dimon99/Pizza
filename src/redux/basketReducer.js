@@ -20,13 +20,14 @@ const basketReducer = (state =initialState, action) =>{
         case REMOVE_FROM_BASKET:
             return{
                 ...state,
-                items: state.items.filter(o => o.id !=action.payload.id)
+                items: state.items.filter(o => o.id !=action.payload)
             };
         case READY:
             return {
                 ...state,
                 ready: action.payload
             };
+
         default:
             return state
     }
@@ -41,6 +42,8 @@ export const removeFromBasketAC = (id)=>({
     type: REMOVE_FROM_BASKET,
     payload: id
 });
+
+
 
 
 

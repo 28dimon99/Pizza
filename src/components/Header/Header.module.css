@@ -4,6 +4,7 @@
     z-index: 999999;
     width: 1294px;
 }
+
 .lowHeader{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

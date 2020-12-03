@@ -9,7 +9,7 @@ const DrinksContainer = (props) => {
     useEffect(()=>{
         axios.get(`http://localhost:3000/drinks`)
             .then(response => {
-                props.setDrinksAC(response.data)
+                props.setDrinks(response.data)
             })
     },[]);
     return (
@@ -26,7 +26,7 @@ const mapStateToProps = (state, /*{id}*/) => ({
     /*addedCount: state.cardReducer.items.reduce((count, p) => count + (p.id === id ? 1: 0), 0),*/
 });
 const mapDispatchToProps = (dispatch) => ({
-    setDrinksAC: drinks => dispatch(setDrinksAC(drinks)),
+    setDrinks: drinks => dispatch(setDrinksAC(drinks)),
     /* addToBasketAC: obj => dispatch(addToBasketAC(obj)),
      removeFromBasketAC: id => dispatch (removeFromBasketAC(id))*/
 

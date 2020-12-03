@@ -9,7 +9,7 @@ const DessertsContainer = (props) => {
     useEffect(()=>{
         axios.get(`http://localhost:3000/desserts`)
             .then(response => {
-                props.setDessertsAC(response.data)
+                props.setDesserts(response.data)
             })
     },[]);
     return (
@@ -26,7 +26,7 @@ const mapStateToProps = (state, /*{id}*/) => ({
     /*addedCount: state.cardReducer.items.reduce((count, p) => count + (p.id === id ? 1: 0), 0),*/
 });
 const mapDispatchToProps = (dispatch) => ({
-    setDessertsAC: desserts => dispatch(setDessertsAC(desserts)),
+    setDesserts: desserts => dispatch(setDessertsAC(desserts)),
     /* addToBasketAC: obj => dispatch(addToBasketAC(obj)),
      removeFromBasketAC: id => dispatch (removeFromBasketAC(id))*/
 

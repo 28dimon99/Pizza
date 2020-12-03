@@ -11,7 +11,7 @@ const SetsContainer = (props) =>{
     useEffect(()=>{
         axios.get(`http://localhost:3000/sets`)
             .then(response => {
-                props.setSetsAC(response.data)
+                props.setSets(response.data)
             })
     },[]);
     return(
@@ -27,7 +27,7 @@ const mapStateToProps =(state) =>({
     isReady: state.setsReducer.isReady
 });
 const mapDispatchToProps = (dispatch) =>({
-    setSetsAC: sets => dispatch(setSetsAC(sets))
+    setSets: sets => dispatch(setSetsAC(sets))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(SetsContainer) ;

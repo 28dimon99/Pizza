@@ -9,7 +9,7 @@ const PancakesContainer = (props) => {
     useEffect(()=>{
         axios.get(`http://localhost:3000/pancakes`)
             .then(response => {
-                props.setPancakesAC(response.data)
+                props.setPancakes(response.data)
             })
     },[]);
     return (
@@ -26,7 +26,7 @@ const mapStateToProps = (state) => ({
 
 });
 const mapDispatchToProps = (dispatch) => ({
-    setPancakesAC: pancakes => dispatch(setPancakesAC(pancakes))
+    setPancakes: pancakes => dispatch(setPancakesAC(pancakes))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PancakesContainer)

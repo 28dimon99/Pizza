@@ -9,7 +9,7 @@ const SnacksContainer = (props) => {
     useEffect(() => {
         axios.get(`http://localhost:3000/snacks`)
             .then(response => {
-                props.setSnacksAC(response.data)
+                props.setSnacks(response.data)
             })
     }, []);
     return (
@@ -27,7 +27,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
 
-    setSnacksAC: snacks => dispatch(setSnacksAC(snacks))
+    setSnacks: snacks => dispatch(setSnacksAC(snacks))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(SnacksContainer)

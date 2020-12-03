@@ -1,42 +1,42 @@
 {
   "pizzas": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/5.jpg",
       "name": "1/2 Вегетарианская 43 см+1/2 Куриная 43 см",
-      "prise": "249 руб.",
+      "price": "652 руб.",
       "description": "Соус, сыр, болгарский перец, томаты, шампиньоны св., лук, маслины"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/4.jpg",
       "name": "1/2 Гавайская 43 см+1/2 ",
-      "prise": "329 руб.",
+      "price": "558 руб.",
       "description": "Соус, курица, ветчина, ананас, кукуруза, сыр моцарелла, стружка кокоса"
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/6.jpg",
       "name": "1/2 Супермясная 43 см+1/2",
-      "prise": "409 руб.",
+      "price": "456 руб.",
       "description": "Соус, салями, охотничьи колбаски, ветчина, бекон, черри, лук красный, сыр моцарелла, горчичный BBQ"
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/2.jpg",
       "name": "1/2 Супермясная 43 см+1/2",
       "price": "547 руб.",
       "description": "Соус, салями, охотничьи колбаски, ветчина, бекон, черри, лук красный, сыр моцарелла, горчичный BBQ"
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/7.jpg",
       "name": "1/2 Грибной квартет 43 см+1/2",
       "price": "459 руб.",
       "description": "Соус,сыр моцарелла, лук, грибы: белый гриб, вешенки"
     },
     {
-      "id": 6,
+      "id": 5,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/1.jpg",
       "name": "1/2 Флоренция 43 см+1/2",
       "price": "509 руб.",
@@ -45,42 +45,42 @@
   ],
   "sets": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/set-v-ofic.jpg",
       "name": "В офис",
       "price": "359 руб.",
       "description": "Пиццы: Сырные палочки (на тесте) с беконом, Тематическая 31 см, Конфетная 31 см"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/set-po-cvejcarski.jpg",
       "name": "Две пиццы « По-швейцарски 43 см»",
       "price": "280 руб.",
       "description": "соус, сыр, сервелат, шампиньоны"
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/set-dla-bolshoj-companii.jpg",
       "name": "Для большой компании",
       "price": "599 руб.",
       "description": "Пиццы:сырные палочки (на тесте) с беконом,Цыплёнок Карри 43,Тематическая 43,По-Швейцарски 43"
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/set-na-dvoih.jpg",
       "name": "На двоих",
       "price": "499 руб.",
       "description": "Пиццы:Цыплёнок карри 23 см,Тематическая 23 см"
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/set-pod-futbol.jpg",
       "name": "Под футбол",
       "price": "359 руб.",
       "description": "Пиццы: Сырная 31см,Бекон с грибами 31см,Мясо и перчик 31см"
     },
     {
-      "id": 6,
+      "id": 5,
       "img": "https://gogopizza.by/wp-content/uploads/2020/02/set-semejka.jpg",
       "name": "Семейка ( Покупайте пиццу Гоу-Гоу 43 см+ Кока-кола 0,5 л и получите подушечки с сах.пудрой и корицей в подарок",
       "price": "271 руб.",
@@ -89,42 +89,42 @@
   ],
   "pancakes": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_9984-600x600.jpg",
       "name": "Блин итальянский",
       "price": "52 руб.",
       "description": "Соус,сыр,салями,томаты свежие"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_9996-600x600.jpg",
       "name": "Блин Микс",
       "price": "69 руб.",
       "description": "Соус,сыр,ветчина,бекон,сервелат,огурцы маринованные"
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_9990-600x600.jpg",
       "name": "Блин охотничий",
       "price": "5.50 руб.",
       "description": "Соус,сыр,охотничьи колбаски,огурцы маринованные"
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_0004-600x600.jpg",
       "name": "Блин по-деревенски",
       "price": "55 руб.",
       "description": "Соус,сыр,бекон,огурцы маринованные"
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_9998-600x600.jpg",
       "name": "Блин с ветчиной",
       "price": "65 руб.",
       "description": "Соус,сыр,ветчина,огурцы маринованные"
     },
     {
-      "id": 6,
+      "id": 5,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_0007-600x600.jpg",
       "name": "Блин с курицей",
       "price": "56 руб.",
@@ -133,42 +133,42 @@
   ],
   "snacks": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2020/03/5.jpg",
       "name": "Вега Ролл",
       "price": "45 руб.",
       "description": "Соус Ранч ,сыр,томаты свежие,тортилья,маслины,огурцы маринованные"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2019/06/IMG_3982-600x600.jpg",
       "name": "Картофельные дольки 150гр",
       "price": "35 руб.",
       "description": "35 руб."
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2019/06/IMG_3982-600x600.jpg",
       "name": "Картофельные дольки 300гр",
       "price": "50 руб.",
       "description": "50 руб."
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2019/06/IMG_3980-600x600.jpg",
       "name": "Наггетсы 160гр",
       "price": "59 руб.",
       "description": "59 руб."
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2019/06/IMG_3980-600x600.jpg",
       "name": "Наггетсы 300грр",
       "price": "99 руб.",
       "description": "99 руб."
     },
     {
-      "id": 6,
+      "id": 5,
       "img": "https://gogopizza.by/wp-content/uploads/2019/11/IMG_9936-min-600x600.jpg",
       "name": "Подушечки ароматные с чесноком",
       "price": "35 руб.",
@@ -177,35 +177,35 @@
   ],
   "desserts": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2020/01/Istoriya-22-600x600.jpg",
       "name": "Маффин Ванила с начинкой абрикос",
       "price": "20 руб.",
       "description": "Маффин Ванила С начинкой абрикос"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2020/01/75ooB4kNSLQ-600x600.jpg",
       "name": "Маффин Чоко с начинкой лимон",
       "price": "20 руб.",
       "description": "Маффин Чоко с начинкой лимон"
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2020/01/q1XzII8AkvY-600x600.jpg",
       "name": "Пирожное Брауни",
       "price": "20 руб.",
       "description": "Пирожное Брауни"
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2020/01/gqXF3UM3xG8-600x600.jpg",
       "name": "Пирожное Крамбл с чёрной смородиной",
       "price": "30 руб.",
       "description": "Пирожное Крамбл с чёрной смородиной"
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2019/11/IMG_9922-min-600x600.jpg",
       "name": "Подушечки сладкие с корицей и сахарной пудрой",
       "price": "35 руб.",
@@ -214,21 +214,21 @@
   ],
   "sauces": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_0063-600x600.jpg",
       "name": "Соус грибной",
       "price": "32 руб.",
       "description": "В наличии"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/IMG_0061-600x600.jpg",
       "name": "Соус Ранч",
       "price": "12 руб.",
       "description": "В наличии"
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/IMG_0067-600x600.jpg",
       "name": "Соус сырный",
       "price": "32 руб.",
@@ -237,42 +237,42 @@
   ],
   "drinks": [
     {
-      "id": 1,
+      "id": 0,
       "img": "https://gogopizza.by/wp-content/uploads/2019/04/bonaqua.jpg",
       "name": "Бонаква 0,5 Л",
       "price": "1.80 руб.",
       "description": "Китайский сладкий,Кунжутно-ореховый,Горчичный,Барбек"
     },
     {
-      "id": 2,
+      "id": 1,
       "img": "https://gogopizza.by/wp-content/uploads/2019/06/Koka-Kola-05-600x600.jpg",
       "name": "Кока –кола 0,5 Л",
       "price": "22 руб.",
       "description": "22 руб."
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/59532_square.jpg",
       "name": "Напиток сокосодержащий Добрый Палпи",
       "price": "25 руб.",
       "description": "25 руб."
     },
     {
-      "id": 4,
+      "id": 3,
       "img": "https://gogopizza.by/wp-content/uploads/2019/05/dobriy-sok-0.33-600x600.jpg",
       "name": "Соки (в ассортименте) 0.2 л",
       "price": "12 руб.",
       "description": "12 руб."
     },
     {
-      "id": 5,
+      "id": 4,
       "img": "https://gogopizza.by/wp-content/uploads/2019/08/n1902.jpg",
       "name": "Соки (в ассортименте) 1л",
       "price": "30 руб.",
       "description": "3.00 руб."
     },
     {
-      "id": 6,
+      "id": 5,
       "img": "https://gogopizza.by/wp-content/uploads/2019/04/sprite.jpg",
       "name": "Спрайт 0,5 Л",
       "price": "22 руб.",
