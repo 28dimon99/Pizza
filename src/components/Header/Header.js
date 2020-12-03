@@ -22,10 +22,12 @@ const Header = (props) => {
     return(
 
         <div className={s.header}>
-                <Image src={logoImg} size='small'/>
+
                 <Menu inverted>
+                    <Image src={logoImg} size='small'/>
                 <Menu.Menu position="right">
                     <NavLink to='/main'><Menu.Item active='main'>Главная</Menu.Item></NavLink>
+                    <NavLink to='/private'><Menu.Item active='private'>Личный кабинет</Menu.Item></NavLink>
                     <NavLink to='/shares'><Menu.Item active='shares'>Акции</Menu.Item></NavLink>
                     <NavLink to='/contacts'><Menu.Item active='contacts'>Контакты</Menu.Item></NavLink>
                     <NavLink to='/vacancies'><Menu.Item active='vacancies'>Вакансии</Menu.Item></NavLink>
